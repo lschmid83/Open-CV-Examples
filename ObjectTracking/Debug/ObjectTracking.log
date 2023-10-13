@@ -1,0 +1,7 @@
+﻿  ch9_AvgBackground.cpp
+C:\Users\Lawrence\github\Open CV Examples\ObjectTracking\ch9_AvgBackground.cpp(32,15): warning C4305: '=': truncation from 'double' to 'float'
+  main.cpp
+C:\Users\Lawrence\github\Open CV Examples\ObjectTracking\main.cpp(71,8): warning C4101: 'n': unreferenced local variable
+  stdafx.cpp
+  Generating Code...
+  ObjectTracking.vcxproj -> C:\Users\Lawrence\github\Open CV Examples\ObjectTracking\Debug\ObjectTracking.exe

@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Lawrence\github\Open CV Examples\CameraPong\main.cpp(294,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Lawrence\github\Open CV Examples\CameraPong\main.cpp(296,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Lawrence\github\Open CV Examples\CameraPong\main.cpp(365,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Lawrence\github\Open CV Examples\CameraPong\main.cpp(368,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CameraPong.vcxproj -> C:\Users\Lawrence\github\Open CV Examples\CameraPong\Debug\CameraPong.exe
