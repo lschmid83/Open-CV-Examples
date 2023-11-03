@@ -68,6 +68,10 @@ The red or blue object is not detected by the camera?
 
 When you run the project make sure to target the x86 platform to avoid errors.
 
+#Note
+
+You may need to change the Build Configuration to Debug and x86 Platform for the project to build.
+
 
 
 
