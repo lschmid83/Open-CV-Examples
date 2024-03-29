@@ -39,6 +39,10 @@ First you will need to download the example .avi file here:
 
 Place this file in the source code folder.
 
+Here is an example screenshot of the motion detection application running:
+
+<img src='https://drive.google.com/uc?id=1q2FKvb97Oiunq8uggx57KrwAlfbjMix-' width='640'>
+
 # Camera Pong
 
 Camera Pong is a table tennis game controlled by detecting moving red and blue coloured objects in front of a webcam using computer vision algorithms.
