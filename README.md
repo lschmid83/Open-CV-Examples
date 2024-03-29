@@ -49,7 +49,7 @@ In one player mode the computer opponent will try and return the ball. The game 
 
 Here is an example screenshot of the game:
 
-<img src='https://drive.google.com/uc?id=1Y8rrSbdoV2Np6y-cEyxfL-wxRfAEzI1Y' width='640'>
+<img src='https://drive.google.com/uc?id=1-Wat7diBBqBp2Jd95npxnjkPU_4WoMXe' width='640'>
 
 # Issues
 
