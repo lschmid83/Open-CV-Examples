@@ -29,6 +29,10 @@ $openCVDir\src\cxcore
 $openCVDir\src\highgui
 ```
 
+If the project doesn't build and there are unresolved external errors go back and setup the paths again.
+
+You may have to change the build target to x86 to build the project.
+
 # Object Detection
 
 This project simply demonstrates people tracking object detection in an .avi recorded video. The moving objects will be tracked with bounding boxes and the x,y coordinates in the video frame displayed.

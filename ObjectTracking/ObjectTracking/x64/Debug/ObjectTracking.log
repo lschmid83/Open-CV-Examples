@@ -1,0 +1,44 @@
+﻿ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvCreateImage referenced in function "void __cdecl AllocateImages(struct _IplImage *)" (?AllocateImages@@YAXPEAU_IplImage@@@Z)
+main.obj : error LNK2001: unresolved external symbol cvCreateImage
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvReleaseImage referenced in function "void __cdecl DeallocateImages(void)" (?DeallocateImages@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol cvReleaseImage
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvGetSize referenced in function "void __cdecl AllocateImages(struct _IplImage *)" (?AllocateImages@@YAXPEAU_IplImage@@@Z)
+main.obj : error LNK2001: unresolved external symbol cvGetSize
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvCopy referenced in function "void __cdecl accumulateBackground(struct _IplImage *,int)" (?accumulateBackground@@YAXPEAU_IplImage@@H@Z)
+main.obj : error LNK2001: unresolved external symbol cvCopy
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvSetZero referenced in function "void __cdecl AllocateImages(struct _IplImage *)" (?AllocateImages@@YAXPEAU_IplImage@@@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvSplit referenced in function "void __cdecl backgroundDiff(struct _IplImage *,struct _IplImage *,int)" (?backgroundDiff@@YAXPEAU_IplImage@@0H@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvConvertScale referenced in function "void __cdecl accumulateBackground(struct _IplImage *,int)" (?accumulateBackground@@YAXPEAU_IplImage@@H@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvAdd referenced in function "void __cdecl scaleHigh(float,int)" (?scaleHigh@@YAXMH@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvAddS referenced in function "void __cdecl createModelsfromStats(void)" (?createModelsfromStats@@YAXXZ)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvSub referenced in function "void __cdecl scaleLow(float,int)" (?scaleLow@@YAXMH@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvSubRS referenced in function "void __cdecl backgroundDiff(struct _IplImage *,struct _IplImage *,int)" (?backgroundDiff@@YAXPEAU_IplImage@@0H@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvOr referenced in function "void __cdecl backgroundDiff(struct _IplImage *,struct _IplImage *,int)" (?backgroundDiff@@YAXPEAU_IplImage@@0H@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvInRange referenced in function "void __cdecl backgroundDiff(struct _IplImage *,struct _IplImage *,int)" (?backgroundDiff@@YAXPEAU_IplImage@@0H@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvAbsDiff referenced in function "void __cdecl accumulateBackground(struct _IplImage *,int)" (?accumulateBackground@@YAXPEAU_IplImage@@H@Z)
+ch9_AvgBackground.obj : error LNK2019: unresolved external symbol cvAcc referenced in function "void __cdecl accumulateBackground(struct _IplImage *,int)" (?accumulateBackground@@YAXPEAU_IplImage@@H@Z)
+main.obj : error LNK2019: unresolved external symbol cvSet referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvCreateMemStorage referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvRectangle referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvInitFont referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvPutText referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvDrawContours referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvCreateStructuringElementEx referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvErode referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvDilate referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvFindContours referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvBoundingRect referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvNamedWindow referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvShowImage referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvDestroyWindow referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvSetMouseCallback referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvWaitKey referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvCreateFileCapture referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvQueryFrame referenced in function wmain
+main.obj : error LNK2019: unresolved external symbol cvReleaseCapture referenced in function wmain
+C:\OpenCV2.1\lib\cv210.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenCV2.1\lib\cxcore210.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenCV2.1\lib\highgui210.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenCV2.1\lib\ml210.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenCV2.1\lib\opencv_ffmpeg210.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\lawre\Documents\GitHub\Open-CV-Examples\ObjectTracking\x64\Debug\ObjectTracking.exe : fatal error LNK1120: 34 unresolved externals
